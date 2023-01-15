@@ -1,8 +1,16 @@
 # kebumen_tour_app
 
-Download this projct in [here](https://www.dropbox.com/s/5r7nrrvbuholgk2/kebumen-tour.apk?dl=0)
+Download this app in [here](https://github.com/Ridlo543/Kebumen-Tour-App/raw/main/kebumen-tour.apk)
 
-A new Flutter project.
+credits:
+icon: https://www.flaticon.com/
+
+article and picture:
+google
+https://www.javatravel.net/tempat-wisata-kebumen
+https://ticmpu.id/listings/goa-petruk-kebumen/
+https://travel.detik.com/cerita-perjalanan/d-5389875/percaya-nggak-kebumen-punya-tempat-secantik-ini/5
+https://kataomed.com/bukit/bukit-banda-kebumen-tempat-menikmati-negeri-diatas-awan
 
 ## Getting Started
 
