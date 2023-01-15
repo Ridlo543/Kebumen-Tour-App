@@ -111,77 +111,81 @@ class HomeScreen extends StatelessWidget {
             const SizedBox(
               height: 8,
             ),
-            ListView.builder(
-              shrinkWrap: true,
-              physics: const ClampingScrollPhysics(),
-              itemCount: tourismPlaces.length,
-              itemBuilder: (context, index) {
-                return Padding(
-                  padding: const EdgeInsets.all(8.0),
-                  child: Card(
-                    elevation: 5,
-                    shape: RoundedRectangleBorder(
-                      borderRadius: BorderRadius.circular(15),
-                    ),
-                    child: Column(
-                      children: [
-                        InkWell(
-                          onTap: () {
-                            Navigator.push(
-                              context,
-                              MaterialPageRoute(
-                                builder: (context) => DetailPlaceScreen(
-                                    place: tourismPlaces[index]),
-                              ),
-                            );
-                          },
-                          child: Column(
-                            children: [
-                              Container(
-                                height: 200,
-                                decoration: BoxDecoration(
-                                  color: Colors.black,
-                                  borderRadius: const BorderRadius.only(
-                                      topLeft: Radius.circular(15),
-                                      topRight: Radius.circular(15)),
-                                  image: DecorationImage(
-                                    image: AssetImage(
-                                        tourismPlaces[index].imageAsset),
-                                    fit: BoxFit.cover,
+            Padding(
+              padding: const EdgeInsets.all(16.0),
+              child: ListView.builder(
+                shrinkWrap: true,
+                physics: const ClampingScrollPhysics(),
+                itemCount: tourismPlaces.length,
+                itemBuilder: (context, index) {
+                  return Padding(
+                    padding: const EdgeInsets.all(8.0),
+                    child: Card(
+                      elevation: 5,
+                      shape: RoundedRectangleBorder(
+                        borderRadius: BorderRadius.circular(15),
+                      ),
+                      child: Column(
+                        children: [
+                          InkWell(
+                            onTap: () {
+                              Navigator.push(
+                                context,
+                                MaterialPageRoute(
+                                  builder: (context) => DetailPlaceScreen(
+                                      place: tourismPlaces[index]),
+                                ),
+                              );
+                            },
+                            child: Column(
+                              children: [
+                                Container(
+                                  height: 200,
+                                  decoration: BoxDecoration(
+                                    color: Colors.black,
+                                    borderRadius: const BorderRadius.only(
+                                        topLeft: Radius.circular(15),
+                                        topRight: Radius.circular(15)),
+                                    image: DecorationImage(
+                                      image: AssetImage(
+                                          tourismPlaces[index].imageAsset),
+                                      fit: BoxFit.cover,
+                                    ),
                                   ),
                                 ),
-                              ),
-                              Padding(
-                                padding: const EdgeInsets.all(8.0),
-                                child: Column(
-                                  crossAxisAlignment: CrossAxisAlignment.start,
-                                  children: [
-                                    Text(
-                                      tourismPlaces[index].name,
-                                      style: const TextStyle(
-                                        fontSize: 18,
-                                        fontFamily: "Product_Sans_Bold",
-                                        fontWeight: FontWeight.bold,
+                                Padding(
+                                  padding: const EdgeInsets.all(8.0),
+                                  child: Column(
+                                    crossAxisAlignment:
+                                        CrossAxisAlignment.start,
+                                    children: [
+                                      Text(
+                                        tourismPlaces[index].name,
+                                        style: const TextStyle(
+                                          fontSize: 18,
+                                          fontFamily: "Product_Sans_Bold",
+                                          fontWeight: FontWeight.bold,
+                                        ),
                                       ),
-                                    ),
-                                    Text(
-                                      tourismPlaces[index].location,
-                                      style: const TextStyle(
-                                        fontSize: 14,
-                                        fontFamily: "Product_Sans_Regular",
+                                      Text(
+                                        tourismPlaces[index].location,
+                                        style: const TextStyle(
+                                          fontSize: 14,
+                                          fontFamily: "Product_Sans_Regular",
+                                        ),
                                       ),
-                                    ),
-                                  ],
+                                    ],
+                                  ),
                                 ),
-                              ),
-                            ],
+                              ],
+                            ),
                           ),
-                        ),
-                      ],
+                        ],
+                      ),
                     ),
-                  ),
-                );
-              },
+                  );
+                },
+              ),
             ),
           ],
         ),
