@@ -2,15 +2,15 @@
 
 Download this app in [here](https://github.com/Ridlo543/Kebumen-Tour-App/raw/main/kebumen-tour.apk)
 
-credits:
-icon: https://www.flaticon.com/
+credits: <br>
+icon: https://www.flaticon.com/<br>
 
-article and picture:
+article and picture:<br>
 google
-https://www.javatravel.net/tempat-wisata-kebumen
-https://ticmpu.id/listings/goa-petruk-kebumen/
-https://travel.detik.com/cerita-perjalanan/d-5389875/percaya-nggak-kebumen-punya-tempat-secantik-ini/5
-https://kataomed.com/bukit/bukit-banda-kebumen-tempat-menikmati-negeri-diatas-awan
+https://www.javatravel.net/tempat-wisata-kebumen<br>
+https://ticmpu.id/listings/goa-petruk-kebumen/<br>
+https://travel.detik.com/cerita-perjalanan/d-5389875/percaya-nggak-kebumen-punya-tempat-secantik-ini/5<br>
+https://kataomed.com/bukit/bukit-banda-kebumen-tempat-menikmati-negeri-diatas-awan<br>
 
 ## Getting Started
 
