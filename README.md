@@ -6,7 +6,7 @@ credits: <br>
 icon: https://www.flaticon.com/<br>
 
 article and picture:<br>
-google
+google<br>
 https://www.javatravel.net/tempat-wisata-kebumen<br>
 https://ticmpu.id/listings/goa-petruk-kebumen/<br>
 https://travel.detik.com/cerita-perjalanan/d-5389875/percaya-nggak-kebumen-punya-tempat-secantik-ini/5<br>
